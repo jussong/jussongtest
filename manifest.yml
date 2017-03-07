@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: jussongtest
+  host: jussongtest
+  disk_quota: 1024M
+  services:
+  - Visual Recognition-1
+  - dashDB-mg
+  - jussongtest-cloudantNoSQLDB
+  - Text to Speech-ot
+  - AlchemyAPI-a0
